@@ -29,3 +29,9 @@ length(v_1) % 3
 
 % The length if a column vector
 length(v_2) % 3
+
+% The number of rows of a matrix
+size(v_3, 1) % 2
+
+% The number of columns of a matrix
+size(v_3, 2) % 2
