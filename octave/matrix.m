@@ -14,3 +14,18 @@ v_4 = ones(5, 6)
 
 % Define a 2x3 matrix with each entry being 6
 v_5 = 6 * ones(2, 3)
+
+% The size of a row vector
+size(v_1) % The output is expected to be "1 3"
+
+% The size of a column vector 
+size(v_2) % The output is expected to be "3 1"
+
+% The size of a matrix
+size(v_3) % The output is expected to be "2 2"
+
+% The length of a row vector
+length(v_1) % 3
+
+% The length if a column vector
+length(v_2) % 3
