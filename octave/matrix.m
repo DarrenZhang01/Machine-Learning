@@ -35,3 +35,6 @@ size(v_3, 1) % 2
 
 % The number of columns of a matrix
 size(v_3, 2) % 2
+
+% Show the variables in the current scope
+whos
