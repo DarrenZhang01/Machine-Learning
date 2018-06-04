@@ -112,3 +112,6 @@ sum(sum(M1))  % output: 15
 
 % Sum the other diagonal elements of the matrix T
 sum(sum(T .* flipud(eye(3))))  % output: 15  (flipud represents flip up down)
+
+% The inverse of the matrix A
+pinv(A)  % output: [0.100000 0.200000; 0.100000 0.200000]
