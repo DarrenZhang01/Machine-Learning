@@ -4,6 +4,7 @@
 	@ Octave
 	@ MATLAB
 	@ TensorFlow
+	@ numpy
 
 ### Run a 'example.m' script file on octave:
 
