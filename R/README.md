@@ -1,4 +1,4 @@
-# Statistical Analysis
+# basics for programming language R 
 
 ### Install R
 
