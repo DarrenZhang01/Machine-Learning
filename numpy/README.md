@@ -25,8 +25,15 @@ print(matrix_a.shape) # The output is (2, 3)
 * <h3>dot product between two vectors</h3>
 ```python
 test_a = np.array([1, 2, 3])
-
 test_b = np.array([1, 2, 3])
 
 print(np.dot(test_a, test_b)) # The result is 14
+```
+
+* <h3>Matrix Multiplication</h3>
+```python
+matrix_a = np.array([[10, 10], [10, 10]])
+matrix_b = np.array([[10, 10], [10, 10]])
+
+print(np.dot(matrix_a, matrix_b)) # The result is [[200 200] [200 200]]
 ```

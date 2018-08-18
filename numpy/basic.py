@@ -51,3 +51,13 @@ print("The vector test_b is: ")
 print(test_b)
 print("dot product of test_a and test_b is: ")
 print(np.dot(test_a, test_b))
+
+# matrix times matrix
+matrix_a = np.array([[10, 10], [10, 10]])
+matrix_b = np.array([[10, 10], [10, 10]])
+print("The matrix matrix_a is: ")
+print(matrix_a)
+print("The matrix matrix_b is: ")
+print(matrix_b)
+print("dot product of matrix_a and matrix_b is: ")
+print(np.dot(matrix_a, matrix_b))
