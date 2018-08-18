@@ -41,3 +41,13 @@ print(f)
 g = a + 1
 print("Print out matrix g:")
 print(g)
+
+# dot production between two vectors
+test_a = np.array([1, 2, 3])
+test_b = np.array([1, 2, 3])
+print("The vector test_a is: ")
+print(test_a)
+print("The vector test_b is: ")
+print(test_b)
+print("dot product of test_a and test_b is: ")
+print(np.dot(test_a, test_b))

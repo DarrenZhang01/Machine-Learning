@@ -21,3 +21,12 @@ matrix_a = np.array([[1, 2, 3], [4, 5, 6]])
 
 print(matrix_a.shape) # The output is (2, 3)
 ```
+
+* <h3>dot product between two vectors</h3>
+```python
+test_a = np.array([1, 2, 3])
+
+test_b = np.array([1, 2, 3])
+
+print(np.dot(test_a, test_b)) # The result is 14
+```
