@@ -36,3 +36,8 @@ print(e)
 f = np.eye(2)
 print("Print out matrix f:")
 print(f)
+
+# Add 1 to each element in vector a
+g = a + 1
+print("Print out matrix g:")
+print(g)
