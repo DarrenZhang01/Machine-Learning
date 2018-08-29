@@ -1,19 +1,19 @@
-## basics for programming language R 
+## basics for programming language R
 
-### Install R
+* <h3>Install R</h3>
 
 http://cran.utstat.utoronto.ca
 ***
-### Go to the R environment in the command line
+* <h3>Go to the R environment in the command line</h3>
 ```
 $ R
 ```
-### Run the R script file
+* <h3>Run the R script file</h3>
 ```
 $ Rscript helloworld.R
 ```
 ***
-### normal distribution graph using R
+* <h3>normal distribution graph using R</h3>
 ```
 x = rnorm(100)
 ```
