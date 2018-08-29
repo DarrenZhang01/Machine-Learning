@@ -1,4 +1,4 @@
-# basics for programming language R 
+## basics for programming language R 
 
 ### Install R
 
@@ -20,4 +20,3 @@ x = rnorm(100)
 ```
 hist(x, prob=TRUE, 10)
 ```
-

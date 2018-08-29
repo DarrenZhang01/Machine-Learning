@@ -1,4 +1,4 @@
-# Use numpy to write Machine Learning Program
+## numpy, fundamental package for scientific computing in python
 
 * <h3>Include numpy in the python file</h3>
 ```python
