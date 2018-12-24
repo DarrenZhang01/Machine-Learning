@@ -22,3 +22,10 @@ with tf.Session() as sess:
     y.initializer.run() # equivalent to: tf.get_default_session.run(y.initializer)
     result_ = func.eval()   # equivalent to: tf.get_default_session.run(func)
     print("The result is equal? {}".format(result == result_))
+
+# Use global_variables_initializer
+init = tf.global_variables_initializer()
+with tf.Session() as sess:
+    init.run() # Initialize all the variables in one command
+    result__ = func.eval()
+    print("'result__ == result_'? {}".format(result__ == result_))
