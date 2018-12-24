@@ -14,3 +14,11 @@ sess.run(x.initializer)
 sess.run(y.initializer)
 result = sess.run(func)
 print("The result is: {}".format(result))
+sess.close()
+
+# start a session with indenting block
+with tf.Session() as sess:
+    x.initializer.run() # equivalent to: tf.get_default_session.run(x.initializer)
+    y.initializer.run() # equivalent to: tf.get_default_session.run(y.initializer)
+    result_ = func.eval()   # equivalent to: tf.get_default_session.run(func)
+    print("The result is equal? {}".format(result == result_))
