@@ -29,3 +29,18 @@ with tf.Session() as sess:
     init.run() # Initialize all the variables in one command
     result__ = func.eval()
     print("'result__ == result_'? {}".format(result__ == result_))
+
+
+# Check that the graph that is being used is the default graph
+assert(x.graph is tf.get_default_graph())
+assert(y.graph is tf.get_default_graph())
+
+# Construct another non-default graph and add variables into it
+graph = tf.Graph()
+with graph.as_default():
+    z = tf.Variable(1)
+
+# Make sure that the graph containing z is the graph that was built just now
+assert(z.graph is graph)
+# Make sure it is not the default graph
+assert(z.graph is not tf.get_default_graph())
