@@ -23,3 +23,8 @@
 ```
 sudo pip3 install scipy
 ```
+
+### Install pandas on jupyter notebook
+```
+pip install pandas ipython[all] jupyter
+```
