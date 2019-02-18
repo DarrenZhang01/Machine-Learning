@@ -29,7 +29,7 @@ sudo pip3 install scipy
 pip install pandas ipython[all] jupyter
 ```
 
-### Install sklearn using conda S
+### Install sklearn using conda 
 ```
 sudo conda install scikit-learn
 ```
