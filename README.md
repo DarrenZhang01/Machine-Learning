@@ -23,3 +23,13 @@
 ```
 sudo pip3 install scipy
 ```
+
+### Install pandas on jupyter notebook
+```
+pip install pandas ipython[all] jupyter
+```
+
+### Install sklearn using conda S
+```
+sudo conda install scikit-learn
+```
