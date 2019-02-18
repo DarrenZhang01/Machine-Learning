@@ -28,3 +28,8 @@ sudo pip3 install scipy
 ```
 pip install pandas ipython[all] jupyter
 ```
+
+### Install sklearn using conda S
+```
+sudo conda install scikit-learn
+```
